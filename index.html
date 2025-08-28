@@ -161,27 +161,28 @@
             container.innerHTML = about.map(p => `<p>${p}</p>`).join('');
         };
 
-        // 只改这一小段
         const renderPublications = (publications) => {
             const container = document.getElementById('publications-container');
+            // Group publications by year
             const groupedByYear = publications.reduce((acc, pub) => {
                 const year = pub.year;
                 if (!acc[year]) acc[year] = [];
                 acc[year].push(pub);
                 return acc;
             }, {});
-        
+
+            // Sort years in descending order
             const sortedYears = Object.keys(groupedByYear).sort((a, b) => b - a);
-        
+
+            // Generate HTML
             let finalHTML = '';
             sortedYears.forEach(year => {
                 finalHTML += `<h3 class="year-subtitle">${year}</h3>`;
                 finalHTML += '<div class="space-y-8 mt-6">';
                 groupedByYear[year].forEach(pub => {
                     finalHTML += `
-                        <article class="card p-6 flex flex-col items-start gap-8" tabindex="0">
-                            <!-- 左侧文字占满整行 -->
-                            <div class="w-full">
+                        <article class="card p-6 flex flex-col sm:flex-row items-start gap-8" tabindex="0">
+                            <div class="flex-1">
                                 <a href="${pub.url}" target="_blank" rel="noopener noreferrer" class="group">
                                    <h3 class="text-xl font-bold group-hover:text-accent transition-colors">${pub.title}</h3>
                                 </a>
@@ -192,7 +193,11 @@
                                     <p class="text-sm text-secondary">${pub.idea}</p>
                                 </div>
                             </div>
-                            <!-- 右侧图片整段已删除 -->
+                            <div class="flex-shrink-0 w-48 mx-auto sm:w-32 md:w-36 mt-4 sm:mt-0 sm:mx-0">
+                                <a href="${pub.url}" target="_blank" rel="noopener noreferrer">
+                                    <img src="${pub.image}" alt="${pub.title} diagram" class="w-full aspect-square rounded-lg object-cover border border-theme shadow-sm hover:shadow-md transition-shadow duration-300" onerror="this.onerror=null;this.src='https://placehold.co/200x200/e5e7eb/1f2937?text=Image';">
+                                </a>
+                            </div>
                         </article>`;
                 });
                 finalHTML += '</div>';
