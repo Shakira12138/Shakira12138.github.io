@@ -24,24 +24,28 @@
       "year": 2025,
       "title": "InfiGFusion: Graph-on-Logits Distillation via Efficient Gromov-Wasserstein for Model Fusion",
       "authors": "Wang Yuanyi, Yan Zhaoyi, Zhang Yiming, <strong>Zhou, Qi</strong>, Gu Yanggan, Wu Fei, Yang Hongxia",
-      "url": "https://arxiv.org/abs/2505.13893"
+      "url": "https://arxiv.org/abs/2505.13893",
+      "status": "Under review"
     },
     {
       "year": 2025,
       "title": "InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models",
       "authors": "Gu Yanggan, Yan Zhaoyi, Wang Yuanyi, Zhang Yiming, <strong>Zhou, Qi</strong>, Wu Fei, Yang Hongxia",
-      "url": "https://arxiv.org/abs/2505.13878"
+      "url": "https://arxiv.org/abs/2505.13878",
+      "status": "Under review"
     },
     {
       "year": 2024,
       "title": "High-fidelity gradient inversion in distributed learning",
       "authors": "{Ye Zipeng, Luo Wenjian,  <strong>Zhou, Qi</strong>, Tang Yubo",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29975"
       "status": "AAAI 2024"
     },
     {
       "year": 2024,
       "title": "Gradient inversion attacks: Impact factors analyses and privacy enhancement",
       "authors": "Ye Zipeng, Luo Wenjian, <strong>Zhou, Qi</strong>, Zhu Zhenqian, Shi Yuhui, Jia Yan",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10604429"
       "status": "TPAMI 2024"
     },
     {
@@ -55,6 +59,7 @@
       "year": 2024,
       "title": "Data-Free Backdoor Model Inspection: Masking and Reverse Engineering Loops for Feature Counting",
       "authors": "<strong>Zhou, Qi</strong>, Luo Wenjian, Ye Zipeng, Tang Yubo",
+      “url": "https://ieeexplore.ieee.org/abstract/document/10651046",
       "status": "IJCNN 2024"
     }
   ]
