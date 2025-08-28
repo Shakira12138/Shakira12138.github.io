@@ -3,7 +3,7 @@
     "name": "ZHOU Qi",
     "chineseName": "周琪",
     "title": "Ph.D. Student at The Hong Kong Polytechnic University",
-    "email": "qiwow [dot] zhou [at] connect [dot] polyu [dot] hk",
+    "email": "qiwow.zhou@connect.polyu.hk",
     "image": "images/profile.jpg",
     "links": [
       {
@@ -14,9 +14,10 @@
   },
   "about": [
     " I am currently studying on the fusion of Large Language Models (LLMs).",
-    " My previous research is mainly on AI security and interpretability, specifically, the backdoor defense in Deep Neural Networks based on image classification tasks.",
-    "I am a Ph.D. Student at The Hong Kong Polytechnic University, advised by Prof. <a href='https://www4.comp.polyu.edu.hk/~hongxyang/' target='_blank' rel='noopener noreferrer'>Hongxia Yang</a>. My research is centered on enhancing the capabilities of AI systems, with a primary focus on Model over Models and Posttrain of LLMs."
-  ],
+     "I am a Ph.D. Student at The Hong Kong Polytechnic University, advised by Prof. <a href='https://www4.comp.polyu.edu.hk/~hongxyang/' target='_blank' rel='noopener noreferrer'>Hongxia Yang</a>. My research is centered on enhancing the capabilities of AI systems, with a primary focus on Model over Models and Posttrain of LLMs.",
+    " My previous research is mainly on AI security and interpretability, specifically, the backdoor defense in Deep Neural Networks based on image classification tasks."
+      ],
+   
   "publications": [
    
     {
