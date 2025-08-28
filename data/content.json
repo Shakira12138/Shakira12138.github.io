@@ -1,0 +1,60 @@
+{
+  "profile": {
+    "name": "ZHOU Qi",
+    "chineseName": "周琪",
+    "title": "Ph.D. Student at The Hong Kong Polytechnic University",
+    "email": "qiwow [dot] zhou [at] connect [dot] polyu [dot] hk",
+    "image": "images/profile.jpg",
+    "links": [
+      {
+        "name": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=IZ9XCcIAAAAJ&hl=zh-CN&oi=sra"
+      }
+    ]
+  },
+  "about": [
+    " I am currently studying on the fusion of Large Language Models (LLMs).",
+    " My previous research is mainly on AI security and interpretability, specifically, the backdoor defense in Deep Neural Networks based on image classification tasks.",
+    "I am a Ph.D. Student at The Hong Kong Polytechnic University, advised by Prof. <a href='https://www4.comp.polyu.edu.hk/~hongxyang/' target='_blank' rel='noopener noreferrer'>Hongxia Yang</a>. My research is centered on enhancing the capabilities of AI systems, with a primary focus on Model over Models and Posttrain of LLMs."
+  ],
+  "publications": [
+   
+    {
+      "year": 2025,
+      "title": "InfiGFusion: Graph-on-Logits Distillation via Efficient Gromov-Wasserstein for Model Fusion",
+      "authors": "Wang Yuanyi, Yan Zhaoyi, Zhang Yiming, <strong>Zhou, Qi</strong>, Gu Yanggan, Wu Fei, Yang Hongxia",
+      "url": "https://arxiv.org/abs/2505.13893"
+    },
+    {
+      "year": 2025,
+      "title": "InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models",
+      "authors": "Gu Yanggan, Yan Zhaoyi, Wang Yuanyi, Zhang Yiming, <strong>Zhou, Qi</strong>, Wu Fei, Yang Hongxia",
+      "url": "https://arxiv.org/abs/2505.13878"
+    },
+    {
+      "year": 2024,
+      "title": "High-fidelity gradient inversion in distributed learning",
+      "authors": "{Ye Zipeng, Luo Wenjian,  <strong>Zhou, Qi</strong>, Tang Yubo",
+      "status": "AAAI 2024"
+    },
+    {
+      "year": 2024,
+      "title": "Gradient inversion attacks: Impact factors analyses and privacy enhancement",
+      "authors": "Ye Zipeng, Luo Wenjian, <strong>Zhou, Qi</strong>, Zhu Zhenqian, Shi Yuhui, Jia Yan",
+      "status": "TPAMI 2024"
+    },
+    {
+      "year": 2024,
+      "title": "Evolutionary Trigger Detection and Lightweight Model Repair Based Backdoor Defense",
+      "authors": "<strong>Zhou, Qi</strong>, Ye Zipeng, Tang Yubo, Luo Wenjian, Shi Yuhui, Jia Yan",
+      "url": "https://arxiv.org/abs/2407.05396",
+      "status": "Under review"
+    },
+    {
+      "year": 2024,
+      "title": "Data-Free Backdoor Model Inspection: Masking and Reverse Engineering Loops for Feature Counting",
+      "authors": "<strong>Zhou, Qi</strong>, Luo Wenjian, Ye Zipeng, Tang Yubo",
+      "status": "IJCNN 2024"
+    }
+  ]
+}
